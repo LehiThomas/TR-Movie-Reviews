@@ -1,0 +1,1108 @@
+@media screen and (min-width: 1300px){
+/*=============================================================================
+                            Global CSS
+  ===========================================================================*/
+header {
+    display: block;
+    width: auto;
+    height: 160px;
+    border:2px solid black;
+    margin-bottom: 0;
+    margin-left: 16%;
+    width: 70%;
+    background-color: rgba(192,192,188,.8);
+    position: relative;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+    width: 70%;
+    background-color: silver;
+    margin-left: 16%;
+    position: relative;
+}
+#bottom{
+    height: 30px;
+    position: absolute; 
+    bottom: 0;
+    left: 15%;
+}
+body {
+    height: 100%;
+    font-family: Georgia, Trebuchet MS, Times, Serif;
+    background-image:url('../content/images/curtains.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    background-color: silver;
+    width: 70%;
+    min-height: 100%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 16%;
+}
+a{
+    color:blue;
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+/*=============================================================================
+                            Header CSS
+  ===========================================================================*/
+#headerLeft{
+    float: left;
+    width: 300px;
+    margin-left: 25px;
+}
+#trippy{
+    width: 400px;
+    margin-right: 0;
+}
+#headerLeft a{
+    text-decoration: none;
+    color: black;
+}
+#headerRight{
+    float: right;
+    width: auto;    
+}
+#theTitle{
+    margin-bottom:0;
+    margin-right: 30px;
+    width: 100%;
+}
+#sub{
+    margin-top: 0;
+    margin-right: 25px;
+}
+#userName{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+
+/*=============================================================================
+                            Aside CSS
+  ===========================================================================*/
+#boxoffice {
+    width: 300px;
+    height: auto;
+    border: 2px solid black; 
+    margin: 2%;
+    padding: 1%;
+    float: right;
+    background-color: #FFB400;
+}
+#comingsoon {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;   
+    margin: 2%;
+    padding: 1%;
+    float: right;
+    background-color: #FFB400;
+}
+#sideBoxes{
+    width: 340px;
+    float: right;
+    margin-right: 10px;
+}
+#sideBoxesHome{
+    width: 300px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*=============================================================================
+                            Home CSS
+  ===========================================================================*/
+#mainContent {
+    float: left;
+    width: 65%;
+    height: auto;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10px;
+    padding-right: 0;
+}
+.ex {
+    background-color: gold;
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    padding: 15px;
+}
+
+
+/*=============================================================================
+                           Navigation CSS
+  ===========================================================================*/
+#navWrap{
+    height: 60px;
+    position: relative;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:auto;
+    font-size: 115%;
+    list-style:none; 
+    position:relative;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    left: 30%;
+}
+nav li{
+    display: inline;
+    padding-right: 10px;
+}
+nav a{
+    background-color: #FFB400;
+    border:2px solid black;
+    padding: 8px 15px;
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*=============================================================================
+                            Review page CSS
+  ===========================================================================*/
+
+#initalReview{
+    float: left;
+    width: 99%;
+    height: auto;
+}
+#ratings{
+    width: 95%;
+    height: 50px;
+    float: right;
+    margin: 3px;
+}
+#userRatings{
+    float: left;
+}
+#synopsisContent {
+    float: left;
+    width: 99%;
+    height: auto;
+    padding: 10px;
+}
+#synopsis {
+    float: left;
+    width: 65%;
+    margin: 2%;
+}
+#synopsisP{
+    margin: 1%;
+    width: 670px;
+}
+.video {
+    float: left;
+    margin-left: 4%; 
+}
+#movieInfo {
+    float: right;
+    border: 1px solid black;
+    width: 290px;
+    height: auto;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: firebrick;
+}
+#theReview{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 1%;
+    padding: 10px;
+}
+#moviePoster{
+    float:left;
+    margin: 0;
+    margin-right: 3%;
+    border: 2px solid black;
+}
+#extras{
+    width: 350px;
+    height: auto;
+    float: right;
+}
+.userComments{
+    width: 90%;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid black;
+    float: right;
+}
+#comment{
+    width: 90%;
+    height: 100px;
+}
+#commentTitle{
+    width:40%;
+}
+
+/*=============================================================================
+                            Month page CSS
+  ===========================================================================*/
+.month{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    padding: 8px;
+    padding-right: 0;
+    border: 1px solid black;
+    min-height: 220px;
+    background-color: silver;
+}
+#add{
+    width:100%;
+    padding-left: 50px;
+}
+
+
+/*=============================================================================
+                            Login CSS
+  ===========================================================================*/
+#loginForm{
+    width: 330px;
+    margin: 40px;
+    float: left;
+}
+#registrationform{
+    width: 360px;
+    float: left;
+    margin: 40px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="file"] {
+    display: block;
+}
+input[type="range"] {
+    display: block;
+    width: 100%;
+}
+
+
+/*=============================================================================
+                          Footer Pages CSS
+  ===========================================================================*/
+#source{
+    width: 40%;
+    margin: 50px;
+    float: left;
+}
+#plan{
+    width: 70%;
+    margin: 10%;
+}
+
+/*=============================================================================
+                          Admin Pages CSS
+  ===========================================================================*/
+/* This button was generated using CSSButtonGenerator.com */
+.button {
+    background-color:#f24537;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    text-indent:0px;
+    border:1px solid #d02718;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Times New Roman;
+    font-size:15px;
+    font-weight:bold;
+    font-style:italic;
+    height:40px;
+    line-height:40px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #810e05;
+}
+.button:hover {
+    background-color:#c62d1f;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+.everyone{
+    margin-top: 20px;
+    width: 100%;
+}
+.updateUserInfo {
+    width: 40%;
+    margin: 40px;
+}
+#insertMovieField{
+    width: 80%;
+    margin: 7.5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#insertMovie1{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+}
+#insertMovie2{
+    width: 400px;
+    height: auto;
+    float: left;
+}
+#deleteWarning{
+    margin: 40px;
+    padding: 10px;
+    width: 425px;
+    border: 1px solid black;
+}
+#deleteWarning p{
+    margin-top: 0;
+    width: 400px;
+}
+}
+
+
+@media screen and (max-width: 1299px) and (min-width: 700px){
+/*=============================================================================
+                            Global CSS
+  ===========================================================================*/
+header {
+    display: block;
+    width: auto;
+    height: auto;
+    border:2px solid black;
+    margin-bottom: 0;
+    margin: auto;
+    width: 80%;
+    background-color: rgba(192,192,188,.8);
+    position: relative;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    width: 80%;
+    margin-top: 30px;
+    background-color: silver;
+    margin: auto;
+}
+body {
+    height: 100%;
+    font-family: Georgia, Trebuchet MS, Times, Serif;
+    background-image:url('../content/images/curtains.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    background-color: silver;
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto;
+}
+a{
+    color:blue;
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+/*=============================================================================
+                            Header CSS
+  ===========================================================================*/
+#headerLeft{
+    width: auto;
+    margin-left: 10px;
+}
+#trippy{
+    width: 400px;
+    margin-right: 0;
+}
+#headerLeft a{
+    text-decoration: none;
+    color: black;
+}
+#headerRight{
+    text-align: right;
+    width: auto;    
+}
+#theTitle{
+    margin-bottom:0;
+    margin-right: 10px;
+}
+#sub{
+    margin-top: 0;
+    margin-right: 25px;
+}
+#userName{
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+/*=============================================================================
+                            Aside CSS
+  ===========================================================================*/
+#boxoffice {
+    width: 45%;
+    height: auto;
+    border: 2px solid black; 
+    padding: 1%;
+    margin-left: 2%;
+    float: left;
+    background-color: #FFB400;
+}
+#comingsoon {
+    width: 45%;
+    height: auto;
+    border: 2px solid black;   
+    padding: 1%;
+    float: left;
+    background-color: #FFB400;
+}
+#sideBoxes{
+    width: 100%
+}
+#sideBoxesHome{
+    width: 100%;
+}
+
+
+/*=============================================================================
+                            Home CSS
+  ===========================================================================*/
+#mainContent {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.ex {
+    background-color: gold;
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    padding: 15px;
+}
+
+
+/*=============================================================================
+                           Navigation CSS
+  ===========================================================================*/
+#navWrap{
+    height: 60px;
+    position: relative;
+}
+nav{
+    font-size: 115%;
+    list-style:none; 
+    text-align: center;
+}
+nav ul {
+    margin: auto;
+    padding-top: 15px;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    background-color: #FFB400;
+    border:2px solid black;
+    padding: 6px 11px;
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*=============================================================================
+                            Review page CSS
+  ===========================================================================*/
+
+#initalReview{
+    float: left;
+    width: 99%;
+    height: auto;
+}
+#ratings{
+    width: 95%;
+    height: 50px;
+    float: right;
+    margin: 3px;
+}
+#userRatings{
+    float: left;
+}
+#synopsisContent {
+    float: left;
+    width: 99%;
+    height: auto;
+}
+#synopsis {
+    float: left;
+    width: 100%;
+}
+#synopsisP{
+    margin: 1%;
+    width: auto;
+}
+.video {
+    float: left;
+    margin-left: 4%; 
+}
+#movieInfo {
+    float: left;
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    background-color: firebrick;
+}
+#theReview{
+    float: left;
+    width: 90%;
+    height: auto;
+    margin: 1%;
+    padding: 10px;
+}
+#moviePoster{
+    float:left;
+    margin: 0;
+    margin-right: 3%;
+    border: 2px solid black;
+}
+#comment{
+    width: 90%;
+    height: 100px;
+}
+#title{
+    width:50%;
+}
+
+
+/*=============================================================================
+                            Month page CSS
+  ===========================================================================*/
+.month{
+    width: 45%;
+    float: left;
+    margin-left: 13px;
+    padding: 10px;
+    padding-right: 0;
+    border: 1px solid black;
+    min-height: 220px;
+    background-color: silver;
+}
+
+#add{
+    width:100%;
+    padding-left: 40px;
+}
+
+/*=============================================================================
+                            Login CSS
+  ===========================================================================*/
+#loginForm{
+    width: 330px;
+    margin: 20px;
+    margin-left: 50px;
+    float: left;
+}
+#registrationform{
+    width: 360px;
+    float: left;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="file"] {
+    display: block;
+}
+input[type="range"] {
+    display: block;
+    width: 100%;
+}
+
+/*=============================================================================
+                          Footer Pages CSS
+  ===========================================================================*/
+#source{
+    width: 40%;
+    margin: 50px;
+    float: left;
+}
+#plan{
+    width: 70%;
+    margin: 10%;
+}
+
+/*=============================================================================
+                          Admin Pages CSS
+  ===========================================================================*/
+/* This button was generated using CSSButtonGenerator.com */
+.button {
+    background-color:#f24537;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    text-indent:0px;
+    border:1px solid #d02718;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Times New Roman;
+    font-size:15px;
+    font-weight:bold;
+    font-style:italic;
+    height:40px;
+    line-height:40px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #810e05;
+}
+.button:hover {
+    background-color:#c62d1f;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+.everyone{
+    margin: 20px;
+    width: 80%;
+}
+.updateUserInfo {
+    width: 40%;
+    margin: 40px;
+}
+#insertMovieField{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#deleteWarning{
+    margin: 40px;
+    padding: 10px;
+    width: 425px;
+    border: 1px solid black;
+}
+#deleteWarning p{
+    margin-top: 0;
+    width: 400px;
+}
+}
+
+
+@media screen and (max-width: 699px){
+/*=============================================================================
+                            Global CSS
+  ===========================================================================*/
+header {
+    display: block;
+    width: auto;
+    height: auto;
+    border:2px solid black;
+    margin-bottom: 0;
+    margin: auto;
+    width: 85%;
+    background-color: rgba(192,192,188,.8);
+    position: relative;
+}
+footer {
+    font-size: 14px;
+    text-align: center;
+    height: 50px;
+    width: 85%;
+    background-color: silver;
+    margin: auto;
+    position: relative;
+}
+body {
+    height: 100%;
+    font-family: Georgia, Trebuchet MS, Times, Serif;
+    background-image:url('../content/images/curtains.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    background-color: silver;
+    width: 85%;
+    min-height: 100%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+a{
+    color:blue;
+}
+a:visited{
+    text-decoration: none;
+}
+iframe{
+    width:100%;
+    height: auto;
+    margin: 0;
+}
+
+/*=============================================================================
+                            Header CSS
+  ===========================================================================*/
+#headerLeft{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+#trippy{
+    width: 400px;
+    margin-right: 0;
+}
+#headerLeft a{
+    text-decoration: none;
+    color: black;
+}
+#headerRight{
+    width: 100%;  
+    margin: 0 auto 0 auto;
+}
+#theTitle{
+    text-align: right;
+    margin-right: 10px;
+}
+#sub{
+    margin-top: 0;
+    text-align: right;
+    margin-right: 5px;
+}
+#userName{
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+/*=============================================================================
+                            Aside CSS
+  ===========================================================================*/
+#boxoffice {
+    clear: both;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid black; 
+    background-color: #FFB400;
+}
+#comingsoon {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid black;   
+    background-color: #FFB400;
+}
+#sideBoxes{
+    width: 100%;
+    margin-right: 10px;
+}
+#sideBoxesHome{
+    width: 100%;
+    margin: auto;
+    clear: both;
+}
+
+
+/*=============================================================================
+                            Home CSS
+  ===========================================================================*/
+#mainContent {
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.ex {
+    background-color: gold;
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    padding: 15px;
+}
+
+
+/*=============================================================================
+                           Navigation CSS
+  ===========================================================================*/
+#navWrap{
+    height: 60px;
+    position: relative;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:auto;
+    font-size: 115%;
+    list-style:none; 
+    position:relative;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+nav li{
+    display: inline;    
+}
+nav a{
+    background-color: #FFB400;
+    border:2px solid black;
+    padding: 2px 4px;
+}
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*=============================================================================
+                            Review page CSS
+  ===========================================================================*/
+
+#initalReview{
+    width: 99%;
+    height: auto;
+}
+#ratings{
+    width: 95%;
+    height: 50px;
+}
+#synopsisContent {
+    width: 99%;
+    height: auto;
+}
+#synopsis {
+    width: 100%;
+}
+#synopsisP{
+    width: 100%;
+}
+.video { 
+}
+#movieInfo {
+    border: 1px solid black;
+    height: auto;
+    padding: 10px;
+    padding-right: 0;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: firebrick;
+}
+#theReview{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#moviePoster{
+    margin: auto;
+}
+#comment{
+    width: 90%;
+    height: 60px;
+}
+#title{
+    width:50%;
+}
+
+
+/*=============================================================================
+                            Month page CSS
+  ===========================================================================*/
+.month{
+    width: 90%;
+    margin: 2px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 1px solid black;
+    min-height: 170px;
+    background-color: silver;
+}
+.month h2{
+    margin-top: 0;
+}
+
+
+
+/*=============================================================================
+                            Login CSS
+  ===========================================================================*/
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="file"] {
+    display: block;
+}
+input[type="range"] {
+    display: block;
+    width: 100%;
+}
+
+/*=============================================================================
+                          Footer Pages CSS
+  ===========================================================================*/
+#source{
+    width: 40%;
+    margin: 50px;
+    float: left;
+}
+#plan{
+    width: 70%;
+    margin: 10%;
+}
+
+/*=============================================================================
+                          Admin Pages CSS
+  ===========================================================================*/
+/* This button was generated using CSSButtonGenerator.com */
+.button {
+    background-color:#f24537;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border:1px solid #d02718;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Times New Roman;
+    font-size:15px;
+    font-weight:bold;
+    font-style:italic;
+    height:40px;
+    line-height:40px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #810e05;
+}
+.button:hover {
+    background-color:#c62d1f;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+.everyone{
+    width: 100%;
+}
+.updateUserInfo {
+    width: 100%;
+}
+#insertMovieField{
+    width: 100%;
+    margin-bottom: 5%;
+}
+#deleteWarning{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+#deleteWarning p{
+    margin-top: 0;
+}
+}
