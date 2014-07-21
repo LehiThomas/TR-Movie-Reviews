@@ -5,6 +5,7 @@ if (!$_SESSION) {
     session_start();
 }
 
+//require the model
 require 'model/db.php';
 
 if (isset($_POST['action'])) {
