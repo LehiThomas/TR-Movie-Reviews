@@ -2,7 +2,7 @@
 --  Filename:       movies.sql
 --  Author:         Lehi Thomas
 --  Created:        12-June-2014
---  Last Updated:   23-June-2014
+--  Last Updated:   20-July-2014
 --  Description:    This drops and creates the tables for the database
 --                  associated with the www.trippyrodeo.com.
 --                  It also seeds all of the tables.
