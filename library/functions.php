@@ -1,10 +1,11 @@
 <?php
 
+// the username, password, and database name have been changed for security reasons
 function connection() {
     $server = 'localhost';
-    $database = 'trippyro_movies';
-    $user = 'trippyro_iClient';
-    $password = 'C3CmX^Fccd)i';
+    $database = 'DATABASE';
+    $user = 'THIS IS THE USER';
+    $password = 'THIS IS THE PASSWORD';
     $dsn = "mysql:host=$server; dbname=$database";
     $option = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
 
